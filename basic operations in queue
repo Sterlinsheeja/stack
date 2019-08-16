@@ -1,0 +1,10 @@
+from pythonds.basic import Queue
+Q=Queue()
+print(Q.isEmpty())
+Q.enqueue(90)
+Q.enqueue(34)
+Q.enqueue("radha")
+print(Q.size())
+Q.dequeue()
+print(Q.dequeue())
+print(Q.dequeue())
