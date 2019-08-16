@@ -1,1 +1,11 @@
-
+from pythonds.basic import Stack
+s=Stack()
+print(s.isEmpty())
+s.push(90)
+s.push(34)
+s.push("radha")
+print(s.peek())
+print(s.size())
+s.pop()
+print(s.pop())
+print(s.pop())
